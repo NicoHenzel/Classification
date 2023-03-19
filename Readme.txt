@@ -1,7 +1,10 @@
 GitHub Link:
 https://github.com/NicoHenzel/Classification
 
-Steps for Dataengineering:
+RapidMiner Studio:
+https://docs.rapidminer.com/9.4/studio/installation/
+
+Steps for Dataengineering (needed to generate Rapid Miner Studio Datasets in order to run processes):
 
 1. Download datasets
 Datasource: https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-19212020-600k-tracks

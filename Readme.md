@@ -54,11 +54,6 @@ This project is licensed with LGPL. For more information checkl the "License" fi
 │       ├── Models               <- Dump of Model obtained from Final Model run.
 │       ├── Parameters           <- Comparison of hyperparameter tuning.
 │       ├── Performances         <- Coparison of Ensemble, Voting and Stacking models.
-│
-├── reports            <- Generated analysis as HTML, PDF, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements       <- The requirements file for reproducing the analysis environment, e.g. a `environment.yml` file
 
 ```    
 ### Steps for Dataengineering 

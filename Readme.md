@@ -30,30 +30,30 @@ This project is licensed with LGPL. For more information checkl the "License" fi
 ```nohighlight
 ├── README.txt                   <- The top-level README for people using this project.
 ├── Data Eploration              <- Inspection of datasets in different preprocessing and clean states. Contains RapidMinerFiles that were used in the exploration
-│   ├── DataEplorationResults    <- Results of the exploration for every original dataset and the final combination
+│   └── DataEplorationResults    <- Results of the exploration for every original dataset and the final combination
 │       ├── ArtistsRecommended   <- Combined Dataset, contains artists and which artists are recommended by spotify for a specific artist
 │       ├── Cleanset             <- Tidy Dataset used for first iteration of modelling.
 │       ├── FinTable             <- The final dataset for the final iteration of modelling.
 │       ├── Presentation         <- Exploration Results shown in the presentation.
-│       ├── RawData              <- The original, immutable data dump.
+│       └── RawData              <- The original, immutable data dump.
 │
 ├── Data                         <- Contains different states of the datasets used in our iterations.
 │   ├── Datasets Rapidminer      <- Data that was transformed using Rapid Miner Studio.
 │   ├── Other                    <- Data that was transformed using SQL.
 │   ├── Python                   <- Python Code to for the first look, data engineering and quick-and-dirty modelling.
-│       ├── Engineering          <- Result of the Data engineering to generate the ArtistsRecommended dataset.
-│   ├── Raw                      <- Copy of the RawData for the artists.csv.
+│       └── Engineering          <- Result of the Data engineering to generate the ArtistsRecommended dataset.
+│   └── Raw                      <- Copy of the RawData for the artists.csv.
 │
 ├── First Iteration              <- Results from modelling in Rapid Miner Studio for the first iteration, using the Cleanset data.
 │
-├── Second Iteration             <- Results from modelling in Rapid Miner Studio for the first iteration, using the FinTable data.
-│   ├── Engineering              <- Engineering in Rapid Miner Studio.
-│   ├── Final Model              <- Comparison of Models and Ensembles to find the best performing algorithm.
-│   ├── Optimize Parameters      <- Hyperparamater Tuning of all used algorithms.
-│   ├── Results                  <- Results of Final Model and Optimize Parameters Runs.
-│       ├── Models               <- Dump of Model obtained from Final Model run.
-│       ├── Parameters           <- Comparison of hyperparameter tuning.
-│       ├── Performances         <- Coparison of Ensemble, Voting and Stacking models.
+└── Second Iteration             <- Results from modelling in Rapid Miner Studio for the first iteration, using the FinTable data.
+    ├── Engineering              <- Engineering in Rapid Miner Studio.
+    ├── Final Model              <- Comparison of Models and Ensembles to find the best performing algorithm.
+    ├── Optimize Parameters      <- Hyperparamater Tuning of all used algorithms.
+    └── Results                  <- Results of Final Model and Optimize Parameters Runs.
+        ├── Models               <- Dump of Model obtained from Final Model run.
+        ├── Parameters           <- Comparison of hyperparameter tuning.
+        └── Performances         <- Coparison of Ensemble, Voting and Stacking models.
 
 ```    
 ### Steps for Dataengineering 
